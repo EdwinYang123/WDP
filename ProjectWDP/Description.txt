@@ -1,0 +1,5 @@
+This project is a website that allows someone 
+to create a wishlist tracker for items that 
+they want to purchase and allows user to add
+and remove items aswell as track price can cost
+of each item and totals
