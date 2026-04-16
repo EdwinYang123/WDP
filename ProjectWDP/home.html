@@ -7,13 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
     <nav>
-        <a href="login.html">Login</a> 
+        <a href="login.html">Login</a>
         <a href="register.html">Register</a>
     </nav>
 <body>
     <ul>
         <li><a href="wishlist.html">Your Wishlist</a></li>
-        <li><a href="bobWishlist.html">Bob's Wishlist</a></li> 
+        <li><a href="bobWishlist.html">Bob's Wishlist</a></li>
     </ul>
+
+    <form id="wishlistItemForm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName">
+        <br>
+        <label for="itemDescription">Description:</label>
+        <input type="text" id="itemDescription">
+        <br>
+        <label for="itemPrice">Price:</label>
+        <input type="number" id="itemPrice" step="0.01">
+        <br>
+        <label for="itemUrl">URL:</label>
+        <input type="text" id="itemUrl">
+        <br>
+        <input type="submit" id="addItem" class="button" value="Add Item">
+    </form>
+    <script src="wishlistItem.js"></script>
 </body>
 </html>
